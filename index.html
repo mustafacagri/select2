@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Select2 Generator</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/select2.full.min.js"></script>
+    <script src="js/select2Generator.js"></script>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/select2.min.css" rel="stylesheet" />
+    <link href="css/select2Generator.css" rel="stylesheet" />
+    <link href="css/select2-bootstrap.min.css" rel="stylesheet" />
+    
+</head>
+<body id="select2GeneratorBody">
+
+    <div class="container-fluid mt-5">
+        
+        <div class="mainbox bottomredborder"><div class="title withoutline"><i class="fas fa-home"></i> Select2 Generator: Make Your Own Select2!</div></div>
+
+        <div class="row">
+            <div class="col-md-8 col-xs-12">
+                <div class="mainbox">
+                    <div class="title"><i class="fas fa-clipboard"></i> Lets Make a Custom Select2 with Select2 Generator</div>
+                    <div class="content pb-4">
+                        <p class="text-center">Here you can create your own custom <mark>Select2 Dropdown</mark> with inputs which are below.</p>
+                        <div id="select2GeneratorDatas" class="mt-4">
+                            <div class="row mb-2"><div class="col-md-4 col-xs-12 text-right"><strong>class:</strong></div><div class="col-md-8 col-xs-12"><input class="form-control" type="text" id="class-select2Generator" name="class-select2Generator" value="select2Generator (of course!)" disabled="disabled" /></div></div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-md-4 col-xs-12"></div>
+                            <div class="col-md-8 col-xs-12">
+                                <!-- <button class="btn btn-success">Create Your Own Select2!</button> -->
+                                <button class="btn btn-outline-danger" id="clearForm">Clear the Form!</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div><!-- mainbox-->
+            </div><!-- col-md-8-->
+            
+            <div class="col-md-4 col-xs-12">
+                <div class="mainbox">
+                    <div class="title"><i class="fas fa-video"></i> Lets See What We Got! (Preview)</div>
+                    <div class="content">
+                        <div id="select2GeneratorPreview"><code>You should type something in the form!</code></div>
+                        <hr />
+                        <div class="mt-3 text-center" id="howmanyattrarechoose"></div>
+                    </div>
+                </div><!-- mainbox-->
+
+
+                <div class="mainbox">
+                    <div class="title"><i class="fas fa-code"></i> Your Custom Select2's Code</div>
+                    <div class="content" id="select2GeneratorPreviewCode"><code>still i'm waiting for you, create it!</code></div>
+                </div><!-- mainbox-->
+
+                <div class="mainbox mt-5">
+                    <div class="title"><i class="fas fa-code"></i> Jquery Plugin Generator Tools</div>
+                    <div class="content otherTools">
+                        <a href="http://code.mustafacagri.com/select2generator/"><i class="fas fa-check-double"></i>Select2 Generator</a>
+                        <a href=""><i class="fas fa-check-double"></i>Datatable Generator</a>
+                    </div>
+                </div><!-- mainbox-->
+
+                <div class="mainbox mt-2">
+                    <div class="title"><i class="fas fa-bezier-curve"></i> Cascade & Target Select Example</div>
+                    <div class="content otherTools">
+                        <select class="select2Generator form-control" name="states" data-url="https://select2generator.firebaseio.com/people.json" data-text="name" data-value="index" data-placeholder="Your Custom Placeholder Message" data-language="tr-TR" data-noDataFound="your custom no data found message" data-targetSelectId="people2" data-targetSelectParam="id" data-targetSelectUrl="https://select2generator.firebaseio.com/people2.json" data-defaultOptionText="Please choose one of the option" data-defaultOptionValue="0"></select>
+                        <hr />
+                        <select class="select2Generator form-control" id="people2" class="form-control" data-text="name" data-value="index" data-placeholder="Select a second select, please!" data-noDataFound="Your 2nd custom no data found message"  data-defaultOptionText="Please choose one of the option!!!" data-defaultOptionValue="0"></select>
+                        <hr />
+                        <code>
+                            &lt;select class="select2Generator form-control" name="states" data-url="https://select2generator.firebaseio.com/people.json" data-text="name" data-value="index" data-placeholder="Your Custom Placeholder Message" data-language="tr-TR" data-noDataFound="your custom no data found message" data-targetSelectId="people2" data-targetSelectParam="id" data-targetSelectUrl="https://select2generator.firebaseio.com/people2.json" data-defaultOptionText="Please choose one of the option" data-defaultOptionValue="0"&gt;&lt;/select&gt;
+                            <br />
+                            &lt;select class="select2Generator form-control" id="people2" class="form-control" data-text="name" data-value="index" data-placeholder="Select a second select, please!" data-noDataFound="Your 2nd custom no data found message"  data-defaultOptionText="Please choose one of the option!!!" data-defaultOptionValue="0"&gt;&lt;/select&gt;
+                        </code>
+                    </div>
+                </div><!-- mainbox-->
+                
+                <div class="exampleCreator" data-title="Single Select2 Example" data-icon="layer-group" data-attributes="data-url|.|data-text|.|data-value|.|data-noDataFound" data-values="https://select2generator.firebaseio.com/people.json|.|name|.|index|.|your custom no data found message"></div>
+
+                <div class="exampleCreator" data-title="Multiple Select2 Example (Max: 2)" data-icon="box" data-attributes="data-url|.|data-text|.|data-value|.|data-noDataFound|.|multiple|.|data-maximumSelectionLength|.|data-placeholder" data-values="https://select2generator.firebaseio.com/people.json|.|name|.|index|.|your custom no data found message|.|multiple|.|2|.|Your Custom Placeholder Message"></div>
+                
+                <div class="exampleCreator" data-title="Option Group Example" data-icon="layer-group" data-attributes="data-url|.|data-text|.|data-value|.|data-noDataFound|.|multiple|.|data-maximumSelectionLength|.|data-placeholder|.|data-optGroup|.|data-optGroupTitle|.|data-optGroupData" data-values="https://select2generator.firebaseio.com/optiongroup.json|.|name|.|index|.|your custom no data found message|.|multiple|.|2|.|Your Custom Placeholder Message|.|true|.|baslik|.|data"></div>
+                
+                <div class="exampleCreator" data-title="Ajax Search Example" data-icon="search" data-attributes="data-url|.|data-text|.|data-value|.|data-noDataFound|.|multiple|.|data-maximumSelectionLength|.|data-placeholder|.|data-minimumInputLength|.|data-maximumInputLength|.|data-ajaxSearch" data-values="https://select2generator.firebaseio.com/people.json|.|name|.|index|.|your custom no data found message|.|multiple|.|2|.|Your Custom Placeholder Message|.|1|.|5|.|true"></div>
+
+
+            </div><!-- col-md-4-->
+
+        </div><!-- row-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mainbox">
+                    <div class="title"><i class="fas fa-hands-helping"></i> What's Happening Here? Might you help me about it?</div>
+                    <div class="content helping-area">
+                        <div class="mb-3"><kbd>Id Attribute</kbd> It's the your select's Id attribute as usual, nothing is different. <code>Example: testId</code></div>
+                        <div class="mb-3"><kbd>Name Attribute</kbd> It's the your select's name attribute as usual, nothing is different. <code>Example: testName</code></div>
+
+                        <div class="mb-3"><kbd>Multiple Attribute</kbd> You can leave it <code>blank</code> or type <code>multiple</code> there. If you leave it blank, it will be a single select. And if you write <code>multiple</code> or anything like 1 or asd or etc, it will be multiple selectable select. <code>Example: multiple</code></div>
+                        
+                        <div class="mb-3"><kbd>Data-MaximumSelectionLength Attribute</kbd> For multiple select2s, you can set a value for maximum. <code>Example: 1</code></div>
+                        <div class="mb-3"><kbd>Data-MaximumSelectedText Attribute</kbd> What will be writen if max selection length is top out? <code>args.maximum</code> is a variable, which select2generator will replace it a number with maximumSelectionLength. <code>Example: You can only select args.maximum item</code></div>
+
+                        <div class="mb-4"><kbd>Data-Url Attribute</kbd> <mark class="text-danger font-weight-bold pl-2 pr-2">[REQUIRED]</mark> Here is an one of the important attribute. There URL what you write here is will be come to your select2 dropdown with a JSON format. Be aware that this URL must has a JSON file and it must has at least 2 property in it. <code>Example: https://select2generator.firebaseio.com/people.json</code></div>
+
+                        <div class="mb-4"><kbd>Data-Text Attribute</kbd> Which object property should be your text in your select2 dropdown? If <code>Select2 Generator</code> can not find this property, it will be shown first property from JSON file which is writen in <code>Data-Url</code> attribute. <code>Example: name</code></div>
+
+                        <div class="mb-4"><kbd>Data-Value Attribute</kbd> Which object property should be your value area in your select2 dropdown? If <code>Select2 Generator</code> can not find this property, it will be shown second property from JSON file which is writen in <code>Data-Url</code> attribute. <code>Example: id</code></div>
+
+                        <hr />
+
+                        <div class="mb-4">
+                            <h4 class="mb-4 mt-4"><kbd class="mr-2">Small Break!</kbd></h4> Let's talk a bit what we have till now. Your URL must have a valid JSON file. That's the first point. Then, if you leave <code>data-text</code> or <code>data-value</code>, the data will be come from first two properties in your JSON file. Besides, if there is a typo or mistake, it will be same as the previous one.
+                            
+                            <div class="row mt-3 mb-3">
+                                <div class="col-md-6 col-xs-12">
+                                    In this way, if this happens and your JSON file like this
+                                    <p>
+                                        <kbd>
+                                            {<br />
+                                                <span class="ml-4"></span>["id":1, "name":"Mustafa", "city":"Ankara"],</span><br />
+                                                <span class="ml-4"></span>["id":2, "name":"Çağrı", "city":"Balıkesir"],</span><br />
+                                                <span class="ml-4"></span>["id":3, "name":"Güven", "city":"İstanbul"]</span><br />
+                                            }
+                                        </kbd>
+                                    </p>
+                                </div><!-- col-md-6-->
+                                <div class="col-md-6 col-xs-12">
+                                    Your select2 will be like this:
+                                    <p>
+                                        <code>
+                                            &lt;select class="select2Generator"&gt;<br />
+                                            <span class="ml-4">&lt;option value="1"&gt;Mustafa&lt;/option&gt;</span><br />
+                                            <span class="ml-4">&lt;option value="2"&gt;Çağrı&lt;/option&gt;</span><br />
+                                            <span class="ml-4">&lt;option value="3"&gt;Güven&lt;/option&gt;</span><br />
+                                            &lt;/select&gt;
+                                        </code>
+                                    </p>
+                                </div><!-- col-md-6-->
+                            </div><!-- row-->
+                            
+                        </div><!-- mb-4-->
+
+                        <div class="mb-4"><kbd>Data-Placeholder Attribute</kbd> It's an ordinary placeholder for your select2 dropdown. <code>Example: My First Select2 Generator Example</code></div>
+                        
+                        <div class="mb-4"><kbd>Data-Language Attribute</kbd> Do you prefer to be shown in your local language. You might type it. Hoewever you should download or include the languages js files. <code>Example: tr-TR</code></div>
+                        
+                        <div class="mb-4"><kbd>Data-NoDataFound Attribute</kbd> What will be shown if there is no data in your JSON file? By the way, you can change the default no data message in top of the <code>select2Generator.js</code> file. <code>Example: I could not find any data :(</code></div>
+
+                        <div class="mb-4"><kbd>Data-DefaultOptionText Attribute</kbd> . <code>Example: I could not find any data :(</code></div>
+                        
+                        <div class="mb-4"><kbd>Data-AllowClear Attribute</kbd> Clearable Selection. <code>Default is false</code>. Two options: True or False. If you do not type anything or do not defined is false. <code>Example: True</code></div>
+
+                        <hr />
+
+
+                        <h4 class="mb-4 mt-4"><mark class="pl-3 pr-3 pt-2 pb-2">Data Attributes For Ajax Search</mark></h4>
+                        <div class="mb-4"><kbd>Data-AjaxSearch Attribute</kbd> You have 2 options for this attributes. <code>True</code> or <code>False</code>. Default value is false. If you type True, there will be an ajax search select2. However
+                            "data-minimumInputLength", "data-maximumInputLength", "data-inputTooLongText", "data-inputTooShortText" attributes are involved with Ajax Search and you can use these attributes for Ajax Search too. <code>Example: True</code>
+                        
+                        <div class="mb-4"><kbd>Data-MinimumInputLength Attribute</kbd> When will start to search after character lentgh is reached. Default value is 3 <code>Example: 1</code></div>
+                        <div class="mb-4"><kbd>Data-MaximumInputLength Attribute</kbd> After reached the maximum length of input, the search will not be work. Default value is "0" (infinite) <code>Example: 5</code></div>
+                        <div class="mb-4"><kbd>Data-InputTooShortText Attribute</kbd> What will be shown before reach the minimum character length of input. <code>args.minimum</code> is a variable, which select2generator will replace it a number <code>Example: You should at least args.minimum character to search</code></div>
+                        <div class="mb-4"><kbd>Data-InputTooLongText Attribute</kbd> What will be shown, after reached the maximum length of input. <code>args.maximum</code> is a variable, which select2generator will replace it a number <code>Example: You can type maximum args.maximum characters</code></div>
+
+                        <h4 class="mb-4 mt-4"><mark class="pl-3 pr-3 pt-2 pb-2">Data Attributes For Option Groups (optgroup)</mark></h4>
+                        <div class="mb-4"><kbd>Data-OptGroup Attribute</kbd> You have 2 options for this attributes. <code>True</code> or <code>False</code>. Default value is false. If you type True, there will be an option group. 
+                            Your Data-Url is important here because it will be like that: <mark>https://select2generator.firebaseio.com/optiongroup.json</mark>
+                            <code>Example: True</code>
+                        </div>
+                        <div class="mb-4"><kbd>Data-OptGroupTitle Attribute</kbd> in our example (<mark>https://select2generator.firebaseio.com/optiongroup.json</mark>) <code>baslik</code> is our option group title. <code>Example: Baslik</code></div>
+                        <div class="mb-4"><kbd>Data-OptGroupTitle Attribute</kbd> in our example <code>data</code> is our option group's data source. By the way, you should type above data-name="name" and data-value="id" in this example. <code>Example: Data</code></div>
+
+                        <hr />
+                        <h4 class="mb-4 mt-4"><mark class="pl-3 pr-3 pt-2 pb-2">Data Attributes For Cascade / Second Select2 Dropdown</mark></h4>
+                        <div class="mb-4"><kbd>Data-TargetSelectId Attribute</kbd> What will be your second / target select2 dropdown's Id? <code>Example: exampleId</code></div>
+                        <div class="mb-4"><kbd>Data-TargetSelectUrl Attribute</kbd> Where do you want to go from first select2 to second select2 dropdown? <code>Example: https://select2generator.firebaseio.com/people2.json</code></div>
+                        <div class="mb-4"><kbd>Data-TargetSelectParam Attribute</kbd> How do you want to pass your selected value? If you make it "Id", you will reach this URL: https://select2generator.firebaseio.com/people2.json?id=[YourSelectedOptionsValue] <code>Example: Id</code></div>
+                        <div class="mb-4"><kbd>Data-TargetSelectType Attribute</kbd> Get or Post? <code>Example: Get</code></div>
+                        <div class="mb-4"><kbd>Data-TargetSelectText Attribute</kbd> Same as data-text attribute <code>Example: Value</code></div>
+                        <div class="mb-4"><kbd>Data-TargetSelectValue Attribute</kbd> Same as data-value attribute <code>Example: Id</code></div>
+
+
+                    </div>
+                </div>
+            </div><!-- col-md-12-->
+
+        </div><!-- row-->
+
+        
+        <footer class="mainbox bottomredborder"><div class="title withoutline">This tool made with <i class="fas fa-heart"></i> in Ankara by <a href="http://www.mustafacagri.com/">Mustafa Çağrı Güven</a>. </div></footer>
+    </div><!-- container-->
+
+
+    <script>
+        function s2gNoAttChoseFunc(){$("#howmanyattrarechoose").html(`You chose <kbd>no</kbd> attribute, choose one!`); $("#howmanyattrarechoose").val(0);} s2gNoAttChoseFunc();
+        
+        $(".exampleCreator").each(function(i,item){
+            var dataAttributes = $(this).attr("data-attributes").split("|.|");
+            var dataValues = $(this).attr("data-values").split("|.|");
+            var createdArea = `<select class="select2Generator form-control"`;
+            $.each(dataAttributes,function(i2,item2){
+                createdArea += ` ${item2}="${dataValues[i2]}"`;
+            });
+            createdArea += "></select>";
+            $(this).append(`
+                <div class="mainbox mt-2">
+                    <div class="title"><i class="fas fa-${$(this).attr("data-icon")}"></i> ${$(this).attr("data-title")}</div>
+                    <div class="content otherTools">
+                        ${createdArea}
+                        <code id="codeArea${i}" class="d-block mt-3">asd</code>
+                    </div>
+                </div>`
+            );
+            $(`#codeArea${i}`).text(createdArea);
+        });
+
+        $(document).ready(function(){
+
+            
+
+            $.each(s2gWhatWeGot, function(i, item){
+                if(item=="data-ajaxSearch"){$("#select2GeneratorDatas").append(`<hr /><div class="row mb-2"><div class="col-md-4 col-xs-12"></div><div class="col-md-8 col-xs-12"><h4><kbd>Ajax Search Options</kbd></h4></div></div>`);}
+                if(item=="data-targetSelectId"){$("#select2GeneratorDatas").append(`<hr /><div class="row mb-2"><div class="col-md-4 col-xs-12"></div><div class="col-md-8 col-xs-12"><h4><kbd>Cascade & Target Select Options</kbd></h4></div></div>`);}
+                if(item=="data-optGroup"){$("#select2GeneratorDatas").append(`<hr /><div class="row mb-2"><div class="col-md-4 col-xs-12"></div><div class="col-md-8 col-xs-12"><h4><kbd>Option Group Options (optgroup)</kbd></h4></div></div>`);}
+                $("#select2GeneratorDatas").append(`<div class="row mb-2"><div class="col-md-4 col-xs-12 text-right"><strong>${item}:</strong></div><div class="col-md-8 col-xs-12"><input class="form-control s2ginputs" type="text" id="s2ginputs-${item}" name="${item}" /></div></div>`);
+            });
+
+            $(".s2ginputs").on('change', function(){
+                var iCount=0; var select2GeneratorPreviewCode = "";
+                $(".s2ginputs").each(function(i,item){
+                    iCount = $(this).val()==""?iCount:iCount+1;
+                    if($("#s2ginputs-"+s2gWhatWeGot[i]).val()!=""){select2GeneratorPreviewCode += ` ${s2gWhatWeGot[i]}="${$("#s2ginputs-"+s2gWhatWeGot[i]).val()}"`;}
+                });
+                if(iCount>0){
+                    $("#select2GeneratorPreviewCode").html(`<code>&lt;select class="select2Generator"${select2GeneratorPreviewCode}&gt;&lt;/select&gt;</code>`);
+                    s2gWhatWeGot.length>iCount?$("#howmanyattrarechoose").html(`You chose <kbd>${iCount}</kbd> attribute${iCount>1?"s":""}!`):$("#howmanyattrarechoose").html(`<kbd>You chose ALL attributes!</kbd>`);
+                    $("#select2GeneratorPreview").html(`<select id="select2GeneratorDemo" class="select2Generator"${select2GeneratorPreviewCode}></select>`);
+                    if($("#s2ginputs-data-targetSelectId").val()!=undefined && $("#s2ginputs-data-targetSelectId").val()!=""){
+                        $("#select2GeneratorPreviewCode").append(`<br /><br /><code>&lt;select class="select2Generator" id="${$("#s2ginputs-data-targetSelectId").val()}"&gt;&lt;/select&gt;</code>`);
+                        $("#select2GeneratorPreview").append(`<br /><br /><select class="select2Generator" id="${$("#s2ginputs-data-targetSelectId").val()}"></select>`);
+                    }
+
+                    select2GeneratorCreatorFunc($("#select2GeneratorDemo"));
+                }
+                else{select2GeneratorClearForm(); s2gNoAttChoseFunc();}
+            });
+        });
+
+        $("#clearForm").on('click', function(){
+            $(".s2ginputs").each(function(i,item){
+                $("#s2ginputs-"+s2gWhatWeGot[i]).val(""); s2gNoAttChoseFunc(); $("#select2GeneratorPreviewCode").html(`<code>&lt;select class="select2Generator"&gt;&lt;/select&gt;</code>`); $("#select2GeneratorPreview").html(`<code>You should type something in the form!</code>`); select2GeneratorClearForm();
+                
+            });
+        });
+
+        function select2GeneratorClearForm(){$("#select2GeneratorPreviewCode").html(`<code>still i'm waiting for you, create it!</code>`);}
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+:root{
+    --kirmizi: #ED1C24;
+    --koyuKirmizi:#dc3545;
+    --lacivert: #212529;
+}
+
+.select2-container--default .select2-selection--single {padding:10px 10px;}
+.select2-container .select2-selection--single {height:auto; line-height:48px;}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {top:22px; margin-top:0; right:15px;}
+.container-fluid {max-width:1600px;}
+
+#select2GeneratorBody {background:#34495e; height: 100%; background:url("../img/bg.jpg"); background-size: cover;}
+.select2Generator {width:100%;}
+
+#select2GeneratorDatas .col-md-4.text-right {padding-top:6px;}
+
+.select2-container {z-index:9999999999;}
+
+/* our custom box like a bootstrap card div */
+
+.mainbox {margin-bottom:2000px; position:relative; display:block; background-color:#fff; color: var(--lacivert); padding:0px 0; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; margin-bottom:20px; -webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out; -o-transition:all .3s ease-in-out; -ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
+    
+.mainbox.bottomredborder {border-bottom:2px solid var(--kirmizi);}
+    .mainbox.bottomredborder a {color:var(--lacivert);}
+
+.mainbox:hover {text-decoration:none; background-color:#efefef; -webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out; -o-transition:all .3s ease-in-out; -ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+.mainbox > .title {position:relative; font-weight: 700; font-size:1rem; color: #212529; padding:10px 15px; line-height:2rem; border-bottom: 1px solid #efefef;}
+    .mainbox > .title.withoutline {border-bottom: 0px;}
+    .mainbox > .title > .sag {float:right; border-left: 1px solid #e8ebf5; padding-left:15px; color: var(--lacivert);}
+        .mainbox > .title > .sag:hover {color: var(--kirmizi); text-decoration: none;}
+        .mainbox > .title > .sag:after {content:""; clear:both; display:Block;}
+        .mainbox > .title > .sag select {display:inline; width:auto; max-width:350px;}
+    .mainbox > .title > svg {color: var(--kirmizi); width:30px;}
+        .mainbox > .title:not(.withoutline):before {bottom: -1px; width: 120px; height: 1px; background: #dc3545; content: ''; left: 0; position: absolute;}
+        .mainbox > .title:after {content:""; clear:both; display:Block;}
+.mainbox > .content {z-index:9999999999999; position:relative; padding:15px 20px;}
+    .mainbox > .content .weighty {font-size:2.4rem; font-weight:bold;}
+
+    .mainbox > .content > .golgeBg {position:absolute; bottom:8px; right:10px; font-size:72px; color: var(--kirmizi); opacity: 0.4; filter: alpha(opacity=40);}
+    .mainbox > .content.helping-area {line-height: 2rem;}
+    .mainbox > .content.otherTools {}
+        .mainbox > .content.otherTools a {color: var(--koyuKirmizi); text-decoration: none; font-weight:bold; display:block; margin-bottom:10px; -webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out; -o-transition:all .3s ease-in-out; -ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+            .mainbox > .content.otherTools svg {color: var(--koyuKirmizi); margin-right: 5px; -webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out; -o-transition:all .3s ease-in-out; -ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+            .mainbox > .content.otherTools a:hover, .mainbox > .content.otherTools a:hover > svg {color: var(--lacivert);  -webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out; -o-transition:all .3s ease-in-out; -ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+
+
+/* our custom box like a bootstrap card div */
