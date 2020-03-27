@@ -53,19 +53,19 @@ Data-Language Attribute Do you prefer to be shown in your local language. You mi
 ` Data-AllowClear Attribute ` Clearable Selection. Default is false. Two options: True or False. If you do not type anything or do not defined is false. ***Example: True***
 
 ## Data Attributes For Ajax Search
-` Data-AjaxSearch Attribute ` You have 2 options for this attributes. True or False. Default value is false. If you type True, there will be an ajax search select2. However "data-minimumInputLength", "data-maximumInputLength", "data-inputTooLongText", "data-inputTooShortText" attributes are involved with Ajax Search and you can use these attributes for Ajax Search too. Example: True
+` Data-AjaxSearch Attribute ` You have 2 options for this attributes. True or False. Default value is false. If you type True, there will be an ajax search select2. However "data-minimumInputLength", "data-maximumInputLength", "data-inputTooLongText", "data-inputTooShortText" attributes are involved with Ajax Search and you can use these attributes for Ajax Search too. ***Example: True***
 
-` Data-MinimumInputLength Attribute ` When will start to search after character lentgh is reached. Default value is 3 Example: 1
+` Data-MinimumInputLength Attribute ` When will start to search after character lentgh is reached. Default value is 3 ***Example: 1***
 
-` Data-MaximumInputLength Attribute ` After reached the maximum length of input, the search will not be work. Default value is "0" (infinite) Example: 5
+` Data-MaximumInputLength Attribute ` After reached the maximum length of input, the search will not be work. Default value is "0" (infinite) ***Example: 5***
 
-` Data-InputTooShortText Attribute ` What will be shown before reach the minimum character length of input. args.minimum is a variable, which select2generator will replace it a number Example: You should at least args.minimum character to search
+` Data-InputTooShortText Attribute ` What will be shown before reach the minimum character length of input. args.minimum is a variable, which select2generator will replace it a number ***Example: You should at least args.minimum character to search***
 
-` Data-InputTooLongText Attribute ` What will be shown, after reached the maximum length of input. args.maximum is a variable, which select2generator will replace it a number Example: You can type maximum args.maximum characters
+` Data-InputTooLongText Attribute ` What will be shown, after reached the maximum length of input. args.maximum is a variable, which select2generator will replace it a number ***Example: You can type maximum args.maximum characters***
 
 ## Data Attributes For Option Groups (optgroup)
 
-` Data-OptGroup Attribute ` You have 2 options for this attributes. True or False. Default value is false. If you type True, there will be an option group. Your Data-Url is important here because it will be like that: https://select2generator.firebaseio.com/optiongroup.json Example: True
+` Data-OptGroup Attribute ` You have 2 options for this attributes. True or False. Default value is false. If you type True, there will be an option group. Your Data-Url is important here because it will be like that: https://select2generator.firebaseio.com/optiongroup.json ***Example: True***
 
 ` Data-OptGroupTitle Attribute ` in our example (https://select2generator.firebaseio.com/optiongroup.json) baslik is our option group title. ***Example: Baslik***
 
