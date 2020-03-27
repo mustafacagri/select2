@@ -1,9 +1,6 @@
 # Select2 Generator From Json
-Select2 Generator: Make Your Own Select2!
 
 ![alt text](http://code.mustafacagri.com/select2generator/ss/ss-min.png "Select2 Generator From Json")
-
-
 
 ## What's Happening Here?
 
