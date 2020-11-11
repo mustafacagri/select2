@@ -2,6 +2,10 @@
 
 ![alt text](http://code.mustafacagri.com/select2generator/ss/ss-min.png "Select2 Generator From Json")
 
+## Demo
+
+[http://code.mustafacagri.com/select2generator/
+
 ## What's Happening Here?
 
 ` Id Attribute ` It's the your select's Id attribute as usual, nothing is different. ***Example: testId***
@@ -28,8 +32,8 @@ In this way, if this happens and your JSON file like this
 ```
 {
   ["id":1, "name":"Mustafa", "city":"Ankara"],
-  ["id":2, "name":"Çağrı", "city":"Balıkesir"],
-  ["id":3, "name":"Güven", "city":"İstanbul"]
+  ["id":2, "name":"Ã‡aÃ°rÃ½", "city":"BalÃ½kesir"],
+  ["id":3, "name":"GÃ¼ven", "city":"Ãstanbul"]
 }
 ```
 
@@ -37,8 +41,8 @@ Your select2 will be like this:
 ```
 <select class="select2Generator">
   <option value="1">Mustafa</option>
-  <option value="2">Çağrı</option>
-  <option value="3">Güven</option>
+  <option value="2">Ã‡aÃ°rÃ½</option>
+  <option value="3">GÃ¼ven</option>
 </select>
 ```
 
